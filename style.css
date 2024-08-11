@@ -1290,7 +1290,7 @@ th{
     .postcard-back {
         padding: 1rem; /* Add padding */
     }
-    .postcard-text {
+    .postcard-text, .postcard-back, .postcard-place, .postcard-heading {
         font-size: .5rem;
     }
 
