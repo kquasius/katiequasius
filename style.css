@@ -1367,7 +1367,7 @@ th{
 
 }
 /*ipad pro, nest hub*/
-@media screen and (min-width: 1000px) and (max-height: 1400px) {
+@media screen and (max-width: 1000px) and (max-height: 1400px) {
     .ab-header-shape .ab-gist_rect {
         font-size: 3rem; 
         letter-spacing: 1vh;
