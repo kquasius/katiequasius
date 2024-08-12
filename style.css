@@ -28,7 +28,7 @@ html {
     filter: blur(0);
     transform: translateY(0);
 }
-.nav{
+.nav, .app-nav{
     position: fixed;
     top: -5vh;
     left: 50%;
@@ -1093,6 +1093,9 @@ th{
     .nav {
         width: 70%;
         height: 6vh;
+    }
+    .app-nav {
+        height: 10vh;
     }
     .nav ul li {
         font-size: .7rem;
