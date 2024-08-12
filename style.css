@@ -85,7 +85,7 @@ html {
     text-underline-offset: 8px;
 }
 
-.nav.scrolled {
+.nav.scrolled, .app-nav.scrolled {
     background-color: rgba(255, 105,180, .7); 
 }
 .box_info_home{
