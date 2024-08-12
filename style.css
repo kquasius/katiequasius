@@ -28,7 +28,7 @@ html {
     filter: blur(0);
     transform: translateY(0);
 }
-.nav, .app-nav{
+.nav {
     position: fixed;
     top: -5vh;
     left: 50%;
@@ -46,7 +46,7 @@ html {
     
     width: 40%;
     height: 12vh; 
-    min-height: 80px;
+    min-height: 100px;
 
 }
 .nav-links {
@@ -1092,10 +1092,7 @@ th{
 @media screen and (max-width: 1000px){
     .nav {
         width: 70%;
-        height: 6vh;
-    }
-    .app-nav {
-        height: 10vh;
+        height: 8vh;
     }
     .nav ul li {
         font-size: .7rem;
