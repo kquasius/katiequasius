@@ -1155,9 +1155,6 @@ th{
         width: 5vh;
         height: 5vh;
     }
-    .app-header {
-        margin-top: 50%;
-    }
     .facts {
         margin: auto;
         grid-template-columns: 1fr !important; 
@@ -1263,7 +1260,7 @@ th{
         font-size: 1rem;
     }
     .concerts-text {
-        font-size: .5rem;
+        font-size: .7rem;
     }
     .popup-travel {
         width: 70vw; 
