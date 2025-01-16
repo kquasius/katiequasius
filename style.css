@@ -1018,12 +1018,10 @@ th{
     align-items: center;
 }
 .app-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    top: 50%;
+    height: 100%;
     font-size: 5rem;
+    text-align: center;
+    margin-top: 20vh;
 }
 .clouds {
     display: flex;
