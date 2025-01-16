@@ -1015,7 +1015,8 @@ th{
     font-size: 5rem;
     background: #BAE9FF;
     text-align: center;
-    margin-top: 20vh;
+    vertical-align: middle;
+    border-bottom: 2px solid black;
 }
 
 .contact_info {
