@@ -1,0 +1,103 @@
+/* color variables */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #D9D9D9;
+    --purple: #7C769D;
+}
+
+/* main setup */
+body {
+    background-color: --gray;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* nav bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 5%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.about-me-nav, .app-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-nav {
+    justify-content: flex-end;
+    flex-grow: 1; 
+}
+
+.about-me-nav img,.app-nav img {
+    height: 40px;
+    border-radius: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    white-space: nowrap; 
+    font-family: monospace;
+}
+
+/* main divs */
+
+.main-text, .app-main {
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 20px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background-color: var(--purple);
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0);
+    color: var(--black);
+}
+
+/* other css for index.html */
+
+a, ul li {
+    color: black;
+    font-weight: normal;
+}
+
+/* footer */ 
+
+footer {
+    background-color: var(--black);
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+/* other app !! css */
+.app-main {
+    max-width: 50%;
+}
+
